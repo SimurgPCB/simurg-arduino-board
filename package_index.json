@@ -2,25 +2,29 @@
   "packages": [
     {
       "name": "simurg",
-      "maintainer": "Senin İsim",
-      "websiteURL": "https://github.com/seninusername/simurg-arduino-board",
-      "email": "sen@example.com",
+      "maintainer": "At\u0131lay \u00d6NOL",
+      "websiteURL": "https://github.com/SimurgPCB/simurg-arduino-board",
+      "email": "atilay@example.com",
       "help": {
-        "online": "https://github.com/seninusername/simurg-arduino-board/issues"
+        "online": "https://github.com/SimurgPCB/simurg-arduino-board/issues"
       },
       "platforms": [
         {
-          "name": "Simurg RTC Board",
+          "name": "Simurg Board",
           "architecture": "myrtc",
           "version": "1.0.0",
           "category": "Contributed",
-          "url": "https://seninusername.github.io/simurg-arduino-board/downloads/simurg_rtc-1.0.0.tar.bz2",
+          "url": "https://simurgpcb.github.io/simurg-arduino-board/downloads/simurg_rtc-1.0.0.tar.bz2",
           "archiveFileName": "simurg_rtc-1.0.0.tar.bz2",
-          "checksum": "SHA-256:DUMMY_HASH_HERE",
+          "checksum": "SHA-256:DUMMY_HASH",
           "size": 123456,
           "boards": [
-            { "name": "Simurg_Ver_328" },
-            { "name": "Simurg_Ver_328P" }
+            {
+              "name": "Simurg_Ver_328"
+            },
+            {
+              "name": "Simurg_Ver_328P"
+            }
           ],
           "toolsDependencies": [
             {
