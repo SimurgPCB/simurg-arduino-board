@@ -6,7 +6,7 @@ Bu repo, Simurg RTC Board için Arduino Board Manager dosyalarını içerir.
 
 1. Bu GitHub Pages adresini Arduino IDE'ye ekleyin:
    ```
-   https://seninusername.github.io/simurg-arduino-board/package_index.json
+   https://github.com/SimurgPCB/simurg-arduino-board/package_index.json
    ```
 
 2. Board Manager'dan **Simurg RTC Board**'u bulun, `Install` deyin.
