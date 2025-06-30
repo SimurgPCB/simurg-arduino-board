@@ -1,0 +1,11 @@
+
+simurg328.name=Simurg_Ver_328
+simurg328.upload.protocol=arduino
+simurg328.upload.speed=115200
+simurg328.bootloader.tool=avrdude
+simurg328.bootloader.low_fuses=0xFF
+simurg328.bootloader.high_fuses=0xDA
+simurg328.bootloader.extended_fuses=0x05
+simurg328.build.mcu=atmega328
+simurg328.build.f_cpu=16000000L
+simurg328.build.core=arduino
