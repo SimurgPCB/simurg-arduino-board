@@ -1,1 +1,48 @@
-DUMMY_TARBALL_CONTENT
+import os
+import tarfile
+
+# Hazır dizin yapısını oluşturalım
+root_dir = "/mnt/data/simurg_rtc"
+hardware_dir = os.path.join(root_dir, "hardware", "myrtc", "1.0.0")
+os.makedirs(hardware_dir, exist_ok=True)
+
+# Örnek bir boards.txt dosyası ekleyelim
+boards_txt = """
+simurg328.name=Simurg_Ver_328
+simurg328.upload.protocol=arduino
+simurg328.upload.speed=115200
+simurg328.bootloader.tool=avrdude
+simurg328.bootloader.low_fuses=0xFF
+simurg328.bootloader.high_fuses=0xDA
+simurg328.bootloader.extended_fuses=0x05
+simurg328.build.mcu=atmega328
+simurg328.build.f_cpu=16000000L
+simurg328.build.core=arduino
+"""
+
+with open(os.path.join(hardware_dir, "boards.txt"), "w") as f:
+    f.write(boards_txt)
+
+# Platform.txt de örnek
+platform_txt = """
+name=Simurg Board
+version=1.0.0
+"""
+
+with open(os.path.join(hardware_dir, "platform.txt"), "w") as f:
+    f.write(platform_txt)
+
+# Örnek bir README
+readme = """
+Bu örnek Simurg Board donanım çekirdeği dizinidir.
+"""
+
+with open(os.path.join(hardware_dir, "README.md"), "w") as f:
+    f.write(readme)
+
+# .tar.bz2 arşivini oluştur
+tarball_path = "/mnt/data/simurg_rtc-1.0.0.tar.bz2"
+with tarfile.open(tarball_path, "w:bz2") as tar:
+    tar.add(root_dir, arcname=os.path.basename(root_dir))
+
+tarball_path
