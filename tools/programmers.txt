@@ -1,0 +1,64 @@
+
+arduinoasisp.name=Arduino as ISP
+arduinoasisp.communication=usb
+arduinoasisp.protocol=arduino
+
+arduinoasisp32u4.name=Arduino as ISP (ATmega32U4)
+arduinoasisp32u4.communication=usb
+arduinoasisp32u4.protocol=arduino
+
+arduinogemma.name=Arduino Gemma
+arduinogemma.communication=usb
+arduinogemma.protocol=arduino
+
+arduinoisp.name=ArduinoISP
+arduinoisp.communication=usb
+arduinoisp.protocol=arduinoisp
+
+arduinoisporg.name=ArduinoISP.org
+arduinoisporg.communication=usb
+arduinoisporg.protocol=arduinoisp
+
+jtagice3isp.name=Atmel JTAGICE3 (ISP mode)
+jtagice3isp.communication=usb
+jtagice3isp.protocol=jtag3isp
+
+jtagice3.name=Atmel JTAGICE3 (JTAG mode)
+jtagice3.communication=usb
+jtagice3.protocol=jtag3
+
+stk500v1.name=Atmel STK500 development board
+stk500v1.communication=serial
+stk500v1.protocol=stk500v1
+
+atmeliceavr.name=Atmel-ICE (AVR)
+atmeliceavr.communication=usb
+atmeliceavr.protocol=jtagice3
+
+avrisp.name=AVR ISP
+avrisp.protocol=avrisp
+avrisp.communication=usb
+
+avrispmkii.name=AVRISP mkII
+avrispmkii.protocol=avrispmkii
+avrispmkii.communication=usb
+
+buspirateisp.name=BusPirate as ISP
+buspirateisp.protocol=buspirate
+buspirateisp.communication=usb
+
+parallel.name=Parallel Programmer
+parallel.protocol=dapa
+parallel.communication=parallel
+
+usbasp.name=USBasp
+usbasp.protocol=usbasp
+usbasp.communication=usb
+
+usbtinyisp.name=USBtinyISP
+usbtinyisp.protocol=usbtiny
+usbtinyisp.communication=usb
+
+simurgisp.name=Simurg ISP
+simurgisp.communication=usb
+simurgisp.protocol=arduino

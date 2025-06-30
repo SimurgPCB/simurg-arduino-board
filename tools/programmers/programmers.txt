@@ -1,0 +1,6 @@
+
+simurgusbasp.name=Simurg USBasp
+simurgusbasp.communication=usb
+simurgusbasp.protocol=usbasp
+simurgusbasp.speed=19200
+simurgusbasp.program.tool=avrdude

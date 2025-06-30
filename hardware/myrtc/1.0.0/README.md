@@ -1,1 +1,1 @@
-Bu klasör Simurg Board donanım çekirdeği ve tools klasörüdür.
+Bu klasör Simurg Board donanım çekirdeği içindir.
